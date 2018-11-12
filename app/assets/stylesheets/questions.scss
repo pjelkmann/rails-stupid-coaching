@@ -1,0 +1,66 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(175, 165, 199, 0.800);
+  width: 100vw;
+  height: 100vh;
+}
+.headline {
+  text-decoration: underline;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.9;
+}
+
+.ask-form {
+  display: flex;
+  width: 50vw;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.submit-button {
+  width: 50px;
+  height: 36px;
+  background-color: rgba(213, 235, 212, 1.000)
+}
+
+.input-field {
+  width: 180px;
+  height: 28px;
+}
+
+.back-button {
+  height: 30px;
+  background-color: rgba(213, 235, 212, 1.000);
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+  opacity: 0.9;
+}
+
+p {
+  color: rgba(242, 227, 197, 1.000);
+  background-color: rgba(175, 165, 199, 0.800);
+  padding: 10px;
+}
+
+h2 {
+  color: rgba(242, 227, 197, 1.000);
+}
+
+.border-left {
+  border-left-width: 4px ;
+  border-left-style: solid;
+  border-left-color: grey;
+}

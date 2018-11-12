@@ -1,0 +1,15 @@
+<div class="box">
+  <h1 class= "headline">Stupid Coaching</h1>
+    <p class= "border-left">
+      <%= "#{@question["question"]}"  %>
+      <br>--  You
+    </p>
+    <p class= "border-left">
+      <%= @answer%>
+      <br>-- Your Coach
+    </p>
+  <button class= "back-button">
+    <%= link_to "Ask a new question", ask_path %>
+
+    </button>
+</div>
